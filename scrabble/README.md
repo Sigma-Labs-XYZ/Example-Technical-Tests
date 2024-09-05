@@ -35,19 +35,6 @@ Letters also have the following distribution (i.e. a standard game of Scrabble i
 | 2 tiles      | B, C, M, P, F, H, V, W, Y |
 | 1 tile       | K, J, X, Q, Z             |
 
-## Asynchronous Setup
-
-If you are completing this assessment with an Interviewer, you can safely skip this section.
-
-If you are completing this challenge asynchronously, then follow these instructions. 
-
-1. Create a new repository
-2. Create a commit to signal when you have started the challenge
-3. Commit your code often
-4. At the end of the time you've been given, commit your code a final time
-
-Any code committed after the deadline will not be included.
-
 ## ⚠️ Note
 
 There is **far** too much work here to be done in the time you've been given. You are **not** expected to complete the whole challenge. 
