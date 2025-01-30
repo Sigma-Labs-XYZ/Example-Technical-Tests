@@ -15,7 +15,7 @@ Each task should be completed **before** moving on to the next:
 1. Given a number, identify the largest integer that can be formed by rearranging its digits.
   - `100` -> `100`
   - `4231` -> `4321`
-  - `01923` -> `93210`
+  - `1923` -> `9321`
 2. Given a number, identify the largest three-digit sequence within it (without rearrangement).
   - `4449994` -> `999`
   - `1290099` -> `900`
