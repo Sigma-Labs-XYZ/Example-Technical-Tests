@@ -16,9 +16,12 @@ Each task should be completed **before** moving on to the next:
   - `100` -> `100`
   - `4231` -> `4321`
   - `01923` -> `93210`
-2. Given a number, identify the largest three-digit sequence within it.
+2. Given a number, identify the largest three-digit sequence within it (without rearrangement).
   - `4449994` -> `999`
-  - `1290099` -> `900`
-3. Given a list of numbers, find the average difference between the largest and smallest
-  - `` -> ``
-  - `` -> ``
+  - `1290099` -> `990`
+  - `800000033` -> `330`
+3. Given a number, identify the difference between the largest number that can be formed from any 3-digit sequence and the smallest number that can be formed from any 3-digit sequence within it.
+  - `123` -> `198` (smallest: 123, largest: 321)
+  - `400099` -> `990` (smallest: 000, largest: 990)   
+4. Given a list of numbers, find the total difference between the largest and smallest three-digit sequences within each one (without rearrangement).
+5. Given a list of numbers, find the average of the smallest numbers that can be formed from any continuous 4-digit sequence in each number.
