@@ -19,7 +19,7 @@ Each task should be completed **before** moving on to the next:
 2. Given a number, identify the largest three-digit sequence within it (without rearrangement).
   - `4449994` -> `999`
   - `1290099` -> `900`
-  - `800000033` -> `330`
+  - `120800000033` -> `800`
 3. Given a number, identify the difference between the largest number that can be formed from any 3-digit sequence and the smallest number that can be formed from any 3-digit sequence within it.
   - `123` -> `198` (smallest: 123, largest: 321)
   - `400099` -> `990` (smallest: 000, largest: 990)   
