@@ -23,8 +23,8 @@ Each task should be completed **before** moving on to the next:
   - `1270099` -> `700`
   - `120800000033` -> `800`
 3. Given a number, identify the smallest number that can be formed by rearranging any continuous 3-digit sequence.
-  - `010` -> `100`
-  - `13872134` -> `873`
+  - `010` -> `1`
+  - `13872134` -> `378`
 4. Given a number, identify the difference between the largest number that can be formed by rearranging any continuous 3-digit sequence and the smallest number that can be formed from by rearranging any continuous 3-digit sequence within it.
   - `123` -> `198` (smallest: 123, largest: 321)
   - `400099` -> `990` (smallest: 000, largest: 990)   
