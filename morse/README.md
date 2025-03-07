@@ -38,5 +38,6 @@ Each task should be completed **before** moving on to the next:
     - `.. / .- -- / -. --- - / .- ..-. .-. .- .. -.. / --- ..-. / .-- --- .-.. ...- . ...` --> `I AM NOT AFRAID OF WOLVES`
     - `-- ..- ... .. -.-. / .. ... / .- / -.- .. -. -.. .-.. -.-- / -... .-. . ...- . -` --> `MUSIC IS A KINDLY BREVET`
 4. Given a message written in English, produce a slash-separated Morse code string. All non-alphanumeric characters should be ignored, and the message should be treated as case-insensitive.
-5. Create a CLI tool that translates between Morse code and English. Users should not have to specify what form their input is in.
-6. Adapt the CLI tool so that it accepts optional encoding arguments, so that symbols other than `.`, `-`, and `/` can be used to encode the message as Morse code.
+5. Morse code uses `STOP` to represent the end of a sentence. When decoding messages, the word `STOP` should be displayed as `.`. When encoding messages, any full stops should be rendered as the Morse code version of the word `STOP`.
+6. Create a CLI tool that translates between Morse code and English. Users should not have to specify what form their input is in.
+7. Adapt the CLI tool so that it accepts optional encoding arguments, so that symbols other than `.`, `-`, and `/` can be used to encode the message as Morse code.
