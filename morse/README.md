@@ -24,7 +24,7 @@ Work through the following tasks **in order**.
 
 Each task should be completed **before** moving on to the next:
 
-1. Given a string of dots and dashes, translate it into the appropriate letter/digit. Invalid sequences should raise an error.
+1. Given a string of dots and dashes, translate it into the appropriate letter/digit. Invalid/untranslateable sequences should raise an error.
     - `.` --> `E`
     - `-..` --> `D`
     - `--...` --> `7`
