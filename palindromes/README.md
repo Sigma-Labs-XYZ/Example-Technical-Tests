@@ -17,7 +17,7 @@ Each task should be completed **before** moving on to the next:
 3. When determining if a string is a palindrome, strings should be treated as case-insensitive and all punctuation other than spaces should be ignored. For example, "racecar" and "Yay!" are palindromes, but "race car" and "sprout?" are not.
 4. Given a list of words, return only the ones that are palindromes. For example, an input of `["oh", "hah", "yep", "mm"]` would return `["hah", "mm"]`.
 5. Using the [Dictionary API](https://dictionaryapi.dev/), look up a given word and return a `dict` of information on that word. If the word is not found in the dictionary, raise a `ValueError`.
-6. Given a list of palindromes, return only those which are nouns.
+6. Given a list of strings, return only those which are both palindromes and nouns.
 7. You can find a list of words in the `words.txt` file. Load this data, and answer the following questions:
    - What is the longest palindrome?
    - What is the longest palindromic noun?
