@@ -5,13 +5,48 @@
 For this challenge, use the following Morse code specification.
 
 ```py
-".-": 'A', "-...": 'B', "-.-.": 'C', "-..": 'D', ".": 'E', "..-.": 'F',
-"--.": 'G', "....": 'H', "..": 'I', ".---": 'J', "-.-": 'K', ".-..": 'L',
-"--": 'M', "-.": 'N', "---": 'O', ".--.": 'P', "--.-": 'Q', ".-.": 'R',
-"...": 'S', "-": 'T', "..-": 'U', "...-": 'V', ".--": 'W', "-..-": 'X',
-"-.--": 'Y', "--..": 'Z', ".----": '1', "..---": '2', "...--": '3',
-"....-": '4', ".....": '5', "-....": '6', "--...": '7', "---..": '8',
-"----.": '9', "-----": '0'
+codesToCharacters.put(".-", 'A')
+ codesToCharacters.put("-...", 'B')
+ codesToCharacters.put("-.-.", 'C')
+ codesToCharacters.put("-..", 'D')
+ codesToCharacters.put(".", 'E')
+ codesToCharacters.put("..-.", 'F')
+
+codesToCharacters.put("--.", 'G')
+ codesToCharacters.put("....", 'H')
+ codesToCharacters.put("..", 'I')
+ codesToCharacters.put(".---", 'J')
+ codesToCharacters.put("-.-", 'K')
+ codesToCharacters.put(".-..", 'L')
+
+codesToCharacters.put("--", 'M')
+ codesToCharacters.put("-.", 'N')
+ codesToCharacters.put("---", 'O')
+ codesToCharacters.put(".--.", 'P')
+ codesToCharacters.put("--.-", 'Q')
+ codesToCharacters.put(".-.", 'R')
+
+codesToCharacters.put("...", 'S')
+ codesToCharacters.put("-", 'T')
+ codesToCharacters.put("..-", 'U')
+ codesToCharacters.put("...-", 'V')
+ codesToCharacters.put(".--", 'W')
+ codesToCharacters.put("-..-", 'X')
+
+codesToCharacters.put("-.--", 'Y')
+ codesToCharacters.put("--..", 'Z')
+ codesToCharacters.put(".----", '1')
+ codesToCharacters.put("..---", '2')
+ codesToCharacters.put("...--", '3')
+
+codesToCharacters.put("....-", '4')
+ codesToCharacters.put(".....", '5')
+ codesToCharacters.put("-....", '6')
+ codesToCharacters.put("--...", '7')
+ codesToCharacters.put("---..", '8')
+
+codesToCharacters.put("----.", '9')
+ "-----": '0'
 ```
 
 ## ⚠️ Note
