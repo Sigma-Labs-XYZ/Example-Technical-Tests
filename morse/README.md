@@ -22,7 +22,7 @@ There is **far** too much work here to be done in the time you've been given. Yo
 
 Work through the following tasks **in order**. 
 
-Each task should be completed **before** moving on to the next:
+Each task should be completed **before** moving on to the next. Completing a later task should not invalidate the solution for a later one.
 
 1. Given a string of dots and dashes, translate it into the appropriate letter/digit. Invalid/untranslateable sequences should raise an error.
     - `.` --> `E`
