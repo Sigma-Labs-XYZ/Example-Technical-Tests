@@ -7,7 +7,7 @@
                                                    ooooo
 ```
 
-A tiny robot can carry up to five items. Robot instructions are represented as strings, where `v` means "put down" and `^` means 'pick up'.
+A tiny robot can carry up to five items. Robot instructions are represented as strings, where `v` means "put down one held thing" and `^` means 'pick up one thing'.
 
 ## Task 1
 
