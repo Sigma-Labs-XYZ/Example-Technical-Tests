@@ -28,7 +28,7 @@ Examples:
 
 ## Task 2
 
-**Given a list of instruction sets, which valid instruction set causes the robot to carry the heaviest load at any point?**
+**Given a list of instruction sets, find the index of the instruction set that causes the robot to carry the heaviest load at any point?**
 
 Examples:
 
