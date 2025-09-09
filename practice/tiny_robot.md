@@ -7,7 +7,7 @@
                                                    ooooo
 ```
 
-A tiny robot can carry up to five items. Robot instructions are represented as strings, where
+A tiny robot can carry up to **five** items without malfunctioning. Robot instructions are represented as strings, where
 
 - `v` means 'put down one held item'
 - `^` means 'pick up one item'
@@ -21,6 +21,8 @@ Examples:
 - `^^^....v..^.v` -> 2
 - `.................^` -> 1
 - `.^.^.^.^.^` -> 5
+- `....v..v` -> 0
+- `....^vvvvv^.` -> 1 
 - `vvv...^` -> 1
 - `^^..vv..^^..v..^` -> 2
 
