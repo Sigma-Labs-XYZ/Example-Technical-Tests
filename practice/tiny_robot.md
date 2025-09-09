@@ -1,10 +1,10 @@
 # Tiny robot
 
 ```
-                                                   __I__
-                                                  [@ _ @]
-                                                 >-|___|-<
-                                                   ooooo
+  __I__
+ [@ _ @]
+>-|___|-<
+  ooooo
 ```
 
 A tiny robot can carry up to **five** items without malfunctioning. Robot instructions are represented as strings, where
