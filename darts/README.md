@@ -18,9 +18,10 @@ Each task should be completed **before** moving on to the next:
 2. Some scores are more complicated than just a number; you should also be able to handle doubles, triples, and bullseyes (50 points).
    - `((10, 'T'), (3, 'D'), 5)` -> `41`
    - `('BE', 1, (2, 'D'))` -> `55`
-4. Given a **list of rounds** for a single player and a **starting score**, identify which round their score reaches zero at.
-   - `[(10, 10, 10), (0, 5, 0), (8, 6, 3)], 35` -> `2`
-   - `[(3, 6, 1), (20, 20)], 8` -> `1`
+4. Given a **list of rounds** for a single player and a **starting score**, identify if the player would win.
+   - `[(10, 10, 10), (0, 5, 0), (8, 6, 3)], 35` -> `True`
+   - `[(3, 6, 1), (20, 20)], 8` -> `True`
+   - `[(2, 2, 2), (2, 'T')], 300` -> `False`
 4. If a round would take a player to zero or below, but does not contain a bullseye, double, or triple, the player's score does not change.
 5. Given a dict of multiple players and their rounds, along with a starting score, identify which player would win first.
    - `{"red": [(0, 0, 1), (0, 0, 2), (0, 0, 3), (10, 0, 0)], "blue": [(5, 2), (1, 1), (0, 1)], "green": [(3, 3), (3, 3), (0, 1)]}, 10` -> `green`
