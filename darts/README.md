@@ -18,7 +18,7 @@ Each task should be completed **before** moving on to the next:
 2. Some scores are more complicated than just a number; you should also be able to handle doubles, triples, and bullseyes (50 points).
    - `((10, 'T'), (3, 'D'), 5)` -> `41`
    - `('BE', 1, (2, 'D'))` -> `55`
-4. Given a list of rounds for a single player and a starting score, identify how many rounds it would take them to win the game.
+4. Given a **list of rounds** for a single player and a **starting score**, identify which round their score reaches zero at.
    - `[(10, 10, 10), (0, 5, 0), (8, 6, 3)], 35` -> `2`
    - `[(3, 6, 1), (20, 20)], 8` -> `1`
 4. If a round would take a player to zero or below, but does not contain a bullseye, double, or triple, the player's score does not change.
