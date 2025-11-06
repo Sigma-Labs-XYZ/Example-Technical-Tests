@@ -1,6 +1,6 @@
 # Darts
 
-The game of [darts](https://en.wikipedia.org/wiki/Darts) involves players trying to reduce their score from an initial starting total by throwing 3 darts each round. Rounds continue until the first player wins.
+The game of [darts](https://en.wikipedia.org/wiki/Darts) involves players trying to reduce their score from an initial starting total by throwing 3 darts each round. Rounds continue until the first player hits zero exactly.
 
 ## ⚠️ Note
 
@@ -18,10 +18,11 @@ Each task should be completed **before** moving on to the next:
 2. Some scores are more complicated than just a number; you should also be able to handle doubles, triples, and bullseyes (50 points).
    - `((10, 'T'), (3, 'D'), 5)` -> `41`
    - `('BE', 1, (2, 'D'))` -> `55`
-4. Given a **list of rounds** for a single player and a **starting score**, identify if the player would win.
-   - `[(10, 10, 10), (0, 5, 0), (8, 6, 3)], 35` -> `True`
-   - `[(3, 6, 1), (20, 20)], 8` -> `True`
+3. Given a **list of rounds** for a single player and a **starting score**, identify if the player would win.
+   - `[(10, 10, 10), (0, 5, 0)], 35` -> `True`
    - `[(2, 2, 2), (2, 'T')], 300` -> `False`
-4. If a round would take a player to zero or below, but does not contain a bullseye, double, or triple, the player's score does not change.
-5. Given a dict of multiple players and their rounds, along with a starting score, identify which player would win first.
+4. The game only ends on hitting exactly zero. If a round would take a player below zero, the entire round is ignored.
+   - `[(0, 6, 1), (20, 20), (20, 20,), (1)], 8` -> `True`
+6. If a round would take a player to zero, but does not contain a bullseye, double, or triple, the player's score does not change.
+7. Given a dict of multiple players and their rounds, along with a starting score, identify which player would win first.
    - `{"red": [(0, 0, 1), (0, 0, 2), (0, 0, 3), (10, 0, 0)], "blue": [(5, 2), (1, 1), (0, 1)], "green": [(3, 3), (3, 3), (0, 1)]}, 10` -> `green`
