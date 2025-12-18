@@ -14,17 +14,14 @@ A tiny robot can carry up to **five** items without malfunctioning. Robot instru
 
 ## Task 1
 
-**Given a string of valid robot instructions (e.g. `^^^....v..^.v`), how many items is the robot carrying at the end of the instructions?**
+**Given a string of valid robot instructions (e.g. `^^^....v..^.v`), how many items is the robot carrying at _the end_ of the instructions?**
 
 Examples:
 
 - `^^^....v..^.v` -> 2
-- `.................^` -> 1
 - `.^.^.^.^.^` -> 5
 - `....v..v` -> 0
-- `....^vvvvv^.` -> 1 
-- `vvv...^` -> 1
-- `^^..vv..^^..v..^` -> 2
+- `....^vvvvv^.` -> 1
 
 ## Task 2
 
@@ -41,7 +38,7 @@ Examples:
 
 `.` represents a standard unit of distance for the robot.
 
-**Given a string of instructions, what is the longest distance travelled under the maximum load for that journey?**
+**Given a string of instructions, what is the _longest_ distance travelled under the _maximum load_ for that journey?**
 
 Examples:
 
