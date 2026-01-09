@@ -20,7 +20,7 @@ Each task should be completed **before** moving on to the next:
    - `('BE', 1, (2, 'D'))` -> `55`
 3. Given a **list of rounds** for a single player and a **starting score**, identify if the player would win.
    - `[(10, 10, 10), (0, 5, 0)], 35` -> `True`
-   - `[(2, 2, 2), (2, (2, 'T'), 2], 300` -> `False`
+   - `[(2, 2, 2), (2, (2, 'T'), 2)], 300` -> `False`
 4. The game only ends on hitting exactly zero. If a round would take a player below zero, the entire round is ignored.
    - `[(0, 6, 1), (20, 20), (20, 20,), (1)], 8` -> `True`
 6. If a round would take a player to zero, but does not contain a bullseye, double, or triple, the player's score does not change.
