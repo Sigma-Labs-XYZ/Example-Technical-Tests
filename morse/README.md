@@ -18,6 +18,12 @@ For this challenge, use the following Morse code specification.
 
 There is **far** too much work here to be done in the time you've been given. You are **not** expected to complete the whole challenge. 
 
+## Rules
+
+- You **can** use Google to help you
+- You **can** ask the Coach for guidance, but we can't solve the problem for you
+- You **cannot** use AI in this assessment
+
 ## Tasks
 
 Work through the following tasks **in order**. 
