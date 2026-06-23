@@ -54,88 +54,81 @@ Each task should be completed before moving on to the next. Completing a later t
    - Example stages for `max_lives = 6`:
 
      - 6 lives:
-       `
-
+       ```
        +---+
-       | |
+       |  |
        |
        |
        |
        |
        ========
-       `
+       ```
 
      - 5 lives:
-       `
-
+       ```
        +---+
-       | |
-       O |
+       |  |
+       |  O
        |
        |
        |
        ========
-       `
+       ```
 
      - 4 lives:
-       `
-
+       ```
        +---+
-       | |
-       O |
-       | |
+       |  |
+       |  O
+       |  |
        |
        |
        ========
-       `
+       ```
 
      - 3 lives:
-       `
-
+       ```
        +---+
-       | |
-       O |
-       /| |
+       |  |
+       |  O
+       |  |\
        |
        |
        ========
-       `
+       ```
 
      - 2 lives:
-       `
-
+       ```
        +---+
-       | |
-       O |
-       /|\ |
+       |  |
+       |  O
+       | /|\
        |
        |
        ========
-       `
+       ```
 
      - 1 life:
-       `
-
+       ```
        +---+
-       | |
-       O |
-       /|\ |
-       / |
+       |  |
+       |  O
+       | /|\
+       | /
        |
        ========
-       `
+       ```
 
      - 0 lives:
-       `
-
+       ```
        +---+
-       | |
-       O |
-       /|\ |
-       / \ |
+       |  |
+       |  O
+       | /|\
+       | / \
        |
        ========
-       `
+       ```
 
 5. Interactive CLI: build a command-line game loop that ties everything together.
 
