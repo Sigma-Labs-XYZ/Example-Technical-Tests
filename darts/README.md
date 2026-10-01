@@ -27,7 +27,7 @@ Each task should be completed **before** moving on to the next:
    - `[(5, (5, 'T'), 10)], 30` -> `False` (hits zero, but no special in the final dart)
    - `[(1, (24, 'D'), 'BE')], 75` -> `True` (hits zero with a bullseye)
 4. Given a list of rounds for **two players** and a starting score, return which player wins. If neither player wins, return `None`.
-   - `p1=[(10, 10, 10), (0, 5, 0)], p2=[(20, 5, 5), (5, 5, 5)], start=35` -> `"p1"`
+   - `p1=[(10, 10, 10), (0, 0, (5, 'D'))], p2=[(20, 5, 5), (5, 5, 5)], start=40` -> `"p1"`
    - `p1=[(10, 10, 10)], p2=[(10, 10, (5, 'D'))], start=30` -> `"p2"` (p1 hits zero but no special dart)
    - `p1=[(1, 1, 1)], p2=[(2, 2, 2)], start=100` -> `None`
 5. In a real game, once a player reaches exactly zero, the game stops — any remaining rounds are not played. Update your two-player game to track **how many rounds were played** before the game ended, and return both the winner and the round count.
