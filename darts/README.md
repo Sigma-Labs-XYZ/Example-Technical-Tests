@@ -25,7 +25,7 @@ Each task should be completed **before** moving on to the next:
    - `[(10, 10, 10)], 30` -> `False` (hits zero but no special dart)
    - `[(10, 10, (5, 'D'))], 30` -> `True` (hits zero with a double)
    - `[(5, (5, 'T'), 10)], 30` -> `False` (hits zero, but no special in the final dart)
-   - `[(1, (24, 'D'), 'BE')], 75` -> `True` (hits zero with a bullseye)
+   - `[(1, (12, 'D'), 'BE')], 75` -> `True` (hits zero with a bullseye)
 4. Given a list of rounds for **two players** and a starting score, return which player wins. If neither player wins, return `None`.
    - `p1=[(10, 10, 10), (0, 5, 0)], p2=[(20, 5, 5), (5, 5, 5)], start=35` -> `"p1"`
    - `p1=[(10, 10, 10)], p2=[(10, 10, (5, 'D'))], start=30` -> `"p2"` (p1 hits zero but no special dart)
